@@ -3,13 +3,16 @@
 Usage: 
     To execute all tests in the terminal execute the following command:
 
-    $ python -m unittest tests/test_rectangle.py
+    $ python tests/test_rectangle.py
 """
 
 __author__ = "Komalpreet Kaur"
 __version__ = "1.0.0"
 
-import unittest
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from shape.rectangle import Rectangle
 
 def main():
@@ -63,7 +66,7 @@ def main():
 
     """Returns correct value for calculate_perimeter."""
     try:
-        print(Rectangle("red", 3, 4).calculate_parameter())
+        print(Rectangle("red", 3, 4).calculate_perimeter())
     except ValueError as e:
         print(e)
 

@@ -43,12 +43,12 @@ class Shape(ABC):
         """
         pass
 
-    @abstractmethod
-    def calculate_parameter(self):
-        """
-        Abstract method to calculate the perimeter of the shape.
+        @abstractmethod
+        def calculate_perimeter(self):
+            """
+            Abstract method to calculate the perimeter of the shape.
 
-        Returns:
-            float: The perimeter of the shape.
-        """
-        pass
+            Returns:
+               float: The perimeter of the shape.
+            """
+            pass

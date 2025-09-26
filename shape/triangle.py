@@ -62,7 +62,7 @@ class Triangle(Shape):
         area = (sp * (sp - self._side_1) * (self._side_2) * (self._side_3)) ** 0.5
         return area
     
-    def calculate_parameter(self):
+    def calculate_perimeter(self):
         """
         Calculates the perimeter of the triangle.
 

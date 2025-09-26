@@ -32,31 +32,31 @@ class Rectangle(Shape):
         else:
             raise ValueError("Width must be numeric.")
         
-        def __str__(self) -> str:
-            """
-            Returns a string representation of the Rectangle.
+    def __str__(self) -> str:
+        """
+        Returns a string representation of the Rectangle.
 
-            Returns:
-                str: Description of the rectangle including color and sides.
-            """
-            return (super().__str__() + "\nThis rectangle has four sides with the lengths of " +
-                f"{self._length}, {self._width}, {self._length} and {self._width} centimeters.")
+        Returns:
+            str: Description of the rectangle including color and sides.
+        """
+        return (super().__str__() + "\nThis rectangle has four sides with the lengths of " +
+            f"{self._length}, {self._width}, {self._length} and {self._width} centimeters.")
     
-        def calculate_area(self):
-            """
-            Calculates the area of the rectangle.
+    def calculate_area(self):
+        """
+        Calculates the area of the rectangle.
 
-            Returns:
-                int: The area of the rectangle.
-            """
-            return self._length * self._width
+        Returns:
+            int: The area of the rectangle.
+        """
+        return self._length * self._width
     
-        def calculate_perimeter(self):
-            """
-            Calculates the perimeter of the rectangle.
+    def calculate_perimeter(self):
+        """
+        Calculates the perimeter of the rectangle.
             
-            Returns:
-                int: The perimeter of the rectangle.
-            """
-            return 2 * (self._length + self._width)
+        Returns:
+            int: The perimeter of the rectangle.
+        """
+        return 2 * (self._length + self._width)
 
