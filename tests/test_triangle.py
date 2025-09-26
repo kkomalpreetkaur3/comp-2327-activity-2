@@ -85,4 +85,5 @@ def main():
     except ValueError as e:
         print(e)
 
-main
+if __name__ == "__main__":
+    main()
