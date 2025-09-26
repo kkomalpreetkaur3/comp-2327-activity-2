@@ -10,7 +10,7 @@ __author__ = "Komalpreet Kaur"
 __version__ = "1.0.0"
 
 import unittest
-from shape.triangle import Triangle
+from .triangle import Triangle
 
 def main():
     """ Attribute set to input value."""

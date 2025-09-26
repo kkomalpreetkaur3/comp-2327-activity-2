@@ -3,7 +3,7 @@
 __author__ = "Komalpreet Kaur"
 __version__ = "1.0.0"
 
-from .shape import Shape
+from shape.shape import Shape
 
 class Triangle(Shape):
     """
