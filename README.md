@@ -13,4 +13,6 @@ Komalpreet Kaur
 
 ## Additional Information
 
-[ Use this space to include additional information that may help in your learning. ]
+- Abstraction: Implemented abstract Shape class with abstract methods for area and primeter.
+- Inheritance: Triangle and Rectangle inherit from Shape, __init__ and __str__ via super().
+- Polymorphism: Subclass override abstract methods, allowing uniform calls to calculate_area, calculate_perimeter on different shapes.
