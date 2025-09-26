@@ -10,7 +10,7 @@ __author__ = "Komalpreet Kaur"
 __version__ = "1.0.0"
 
 import unittest
-from .triangle import Triangle
+from shape.triangle import Triangle
 
 def main():
     """ Attribute set to input value."""
@@ -85,5 +85,4 @@ def main():
     except ValueError as e:
         print(e)
 
-main()
-
+main
